@@ -46,14 +46,8 @@
   .fate.approaches {
     width: 25%;
   }
-  .fate.approaches tr td:first-child {
-    border: none;
-    border-color: white;
-
-  }
-  .fate.approaches tr td:last-child {
-    height: 1.5em;
-    width: 3.8em;
+  .fate.approaches tr td {
+    height: 2.2em;
   }
   .fate.stunts {
     width: 100%;
@@ -61,20 +55,26 @@
   .fate.stunts td {
     height: 20em;
   }
-  .fate.stress {
-    width: 25%;
-  }
-  .fate.stress td {
-    height: 3em;
-  }
   .fate.consequences {
-    width: 75%
+    width: 75%;
+    float: right;
   }
   .fate.consequences td {
     height: 2.5em;
   }
-  img.fate.logo {
+  div.bottom-left {
+    float: left;
     width: 25%;
+  }
+  .fate.stress {
+    width: 100%;
+    float: none;
+  }
+  .fate.stress td {
+    height: 3em;
+  }
+  img.fate.logo {
+    width: 100%;
   }
   </style>
 </head>
@@ -99,24 +99,26 @@
   </table>
   <table class="fate approaches">
     <tr><th colspan=2>Hozzáállások</th></tr>
-    <tr><td>Óvatos</td><td></td></tr>
-    <tr><td>Okos</td><td></td></tr>
-    <tr><td>Látványos</td><td></td></tr>
-    <tr><td>Erőteljes</td><td></td></tr>
-    <tr><td>Gyors</td><td></td></tr>
-    <tr><td>Simlis</td><td></td></tr>
+    <tr><td>Óvatos</td></tr>
+    <tr><td>Okos</td></tr>
+    <tr><td>Látványos</td></tr>
+    <tr><td>Erőteljes</td></tr>
+    <tr><td>Gyors</td></tr>
+    <tr><td>Simlis</td></tr>
   </table>
-  <img class="fate logo" src="img/fate-logo-black.png"/>
   <div class="clear" />
   <table class="fate stunts">
     <tr><th>Trükkök</th></tr>
     <tr><td></td></tr>
   </table>
   <div class="clear" />
-  <table class="fate stress">
-    <tr><th colspan=3>Gyűrődés</th></tr>
-    <tr><td>1</td><td>2</td><td>3</td></tr>
-  </table>
+  <div class="bottom-left">
+    <table class="fate stress">
+      <tr><th colspan=3>Gyűrődés</th></tr>
+      <tr><td>1</td><td>2</td><td>3</td></tr>
+    </table>
+    <img class="fate logo" src="img/fate-logo-black.png"/>
+  </div>
   <table class="fate consequences">
     <tr><th>Következmények</th></tr>
     <tr><td>2 Enyhe</td></tr>
