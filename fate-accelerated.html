@@ -1,0 +1,128 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+  * {
+    font-family: sans-serif;
+  }
+  table.fate {
+    float: left;
+  }
+  div.clear {
+    clear: both;
+  }
+  .fate th {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 0.2em;
+    padding-left: 0.3em;
+  }
+  .fate td {
+    border-style: solid;
+    border-width: thin;
+    color: grey;
+    vertical-align: top;
+  }
+  .fate.fate-id {
+    width: 70%;
+  }
+  .fate.fate-id td.description {
+    height: 3.5em;
+  }
+  .fate.fate-points {
+    width: 30%;
+  }
+  .fate.fate-points td {
+    height: 5em;
+    width: 50%;
+  }
+  .fate.aspects {
+    width: 75%;
+  }
+  .fate.aspects td {
+    height: 2.7em;
+  }
+  .fate.approaches {
+    width: 25%;
+  }
+  .fate.approaches tr td:first-child {
+    border: none;
+    border-color: white;
+
+  }
+  .fate.approaches tr td:last-child {
+    height: 1.5em;
+    width: 3.8em;
+  }
+  .fate.stunts {
+    width: 100%;
+  }
+  .fate.stunts td {
+    height: 20em;
+  }
+  .fate.stress {
+    width: 25%;
+  }
+  .fate.stress td {
+    height: 3em;
+  }
+  .fate.consequences {
+    width: 75%
+  }
+  .fate.consequences td {
+    height: 2.5em;
+  }
+  img.fate.logo {
+    width: 25%;
+  }
+  </style>
+</head>
+<body>
+  <table class="fate fate-id">
+    <tr><th>ID</th></tr>
+    <tr><td>Név</td></tr>
+    <tr><td class="description">Leírás</td></tr>
+  </table>
+  <table class="fate fate-points">
+    <tr><th colspan=2>Fate pontok</th></tr>
+    <tr><td>Kezdeti</td><td>Jelenlegi</td></tr>
+  </table>
+  <div class="clear" />
+  <table class="fate aspects">
+    <tr><th>Aspektusok</th></tr>
+    <tr><td>Fő</td></tr>
+    <tr><td>Probléma</td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+  </table>
+  <table class="fate approaches">
+    <tr><th colspan=2>Hozzáállások</th></tr>
+    <tr><td>Óvatos</td><td></td></tr>
+    <tr><td>Okos</td><td></td></tr>
+    <tr><td>Látványos</td><td></td></tr>
+    <tr><td>Erőteljes</td><td></td></tr>
+    <tr><td>Gyors</td><td></td></tr>
+    <tr><td>Simlis</td><td></td></tr>
+  </table>
+  <img class="fate logo" src="img/fate-logo-black.png"/>
+  <div class="clear" />
+  <table class="fate stunts">
+    <tr><th>Trükkök</th></tr>
+    <tr><td></td></tr>
+  </table>
+  <div class="clear" />
+  <table class="fate stress">
+    <tr><th colspan=3>Gyűrődés</th></tr>
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+  </table>
+  <table class="fate consequences">
+    <tr><th>Következmények</th></tr>
+    <tr><td>2 Enyhe</td></tr>
+    <tr><td>4 Közepes</td></tr>
+    <tr><td>6 Komoly</td></tr>
+  </table>
+  <div class="clear" />
+</body>
+</html>
